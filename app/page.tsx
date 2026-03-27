@@ -222,10 +222,12 @@ export default function HomePage() {
                 <div className="absolute top-0 right-0 w-40 h-40 rounded-full bg-accent/5 -translate-y-1/2 translate-x-1/2" />
 
                 <div className="relative z-10">
-                  <div className="w-20 h-20 rounded-2xl bg-accent-gradient flex items-center justify-center mb-6">
-                    <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                    </svg>
+                  <div className="w-24 h-24 rounded-2xl overflow-hidden mb-6 shadow-card">
+                    <img
+                      src="https://inskin.clinic/wp-content/uploads/2022/04/INSKIN-CLINIC-Доктор-Надежда-Саламашенко-1.jpg"
+                      alt="Надежда Саламашенко"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
 
                   <h3 className="font-heading text-2xl text-primary-dark mb-1">
@@ -383,6 +385,42 @@ export default function HomePage() {
               Все услуги клиники
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* PHOTO GALLERY */}
+      <section className="py-16 overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10 text-center">
+          <div className="inline-flex items-center gap-2 text-accent text-sm font-medium tracking-wide uppercase mb-4">
+            <div className="w-8 h-px bg-accent" />
+            Процедуры
+            <div className="w-8 h-px bg-accent" />
+          </div>
+          <h2 className="section-title">Результаты наших процедур</h2>
+        </div>
+        <div className="flex gap-4 overflow-x-auto pb-4 px-4 sm:px-6 lg:px-8 scrollbar-hide">
+          {[
+            { src: 'https://inskin.clinic/wp-content/uploads/2025/02/рф-лифтинг-инскин-санкт-петербург-6.jpg', label: 'RF-лифтинг' },
+            { src: 'https://inskin.clinic/wp-content/uploads/2022/09/смас-лифтинг-васильевский-остров-инскин.jpg', label: 'СМАС-лифтинг' },
+            { src: 'https://inskin.clinic/wp-content/uploads/2020/09/удаление-сосудов-и-фотоомоложение-в-клинике-инскин-санкт-петербург-2.jpg', label: 'Фотоомоложение' },
+            { src: 'https://inskin.clinic/wp-content/uploads/2025/02/экзосомы-клиника-инскин-санкт-петербург.jpg', label: 'Экзосомы' },
+            { src: 'https://inskin.clinic/wp-content/uploads/2020/11/лазерная-эпиляция-moveo-в-клинике-инскин-санкт-петербург-5.jpg', label: 'Лазерная эпиляция' },
+            { src: 'https://inskin.clinic/wp-content/uploads/2020/09/лазерное-омоложение-в-клинике-инскин-санкт-петербург-2.jpg', label: 'Лазерное омоложение' },
+            { src: 'https://inskin.clinic/wp-content/uploads/2020/12/лечение-акне-на-васильевском-острове-санкт-петербург-в-клинике-инскин.jpg', label: 'Лечение акне' },
+            { src: 'https://inskin.clinic/wp-content/uploads/2020/12/лечение-розацеа-на-васильевском-острове-санкт-петербург-в-клинике-инскин.jpg', label: 'Лечение розацеа' },
+          ].map((photo) => (
+            <div key={photo.label} className="flex-shrink-0 w-64 h-80 rounded-2xl overflow-hidden relative group cursor-pointer shadow-card">
+              <img
+                src={photo.src}
+                alt={photo.label}
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+              <div className="absolute bottom-4 left-4 right-4">
+                <span className="text-white text-sm font-medium">{photo.label}</span>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 

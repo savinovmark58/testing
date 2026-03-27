@@ -20,6 +20,7 @@ const SERVICES = [
     category: 'hardware',
     categoryName: 'Аппаратная косметология',
     name: 'Nordlys Candela',
+    image: 'https://inskin.clinic/wp-content/uploads/2020/09/удаление-сосудов-и-фотоомоложение-в-клинике-инскин-санкт-петербург-2.jpg',
     equipment: 'Nordlys Candela (США)',
     tagline: 'Световая терапия нового поколения',
     description:
@@ -36,6 +37,7 @@ const SERVICES = [
     category: 'hardware',
     categoryName: 'Аппаратная косметология',
     name: 'HIFU УCOS — СМАС-лифтинг',
+    image: 'https://inskin.clinic/wp-content/uploads/2022/09/смас-лифтинг-васильевский-остров-инскин.jpg',
     equipment: 'HIFU UCOS (Корея)',
     tagline: 'Подтяжка без скальпеля',
     description:
@@ -52,6 +54,7 @@ const SERVICES = [
     category: 'hardware',
     categoryName: 'Аппаратная косметология',
     name: 'SmartXide Punto',
+    image: 'https://inskin.clinic/wp-content/uploads/2020/09/лазерное-омоложение-в-клинике-инскин-санкт-петербург-2.jpg',
     equipment: 'SmartXide Punto (Италия)',
     tagline: 'Лазерное омоложение и коррекция',
     description:
@@ -68,6 +71,7 @@ const SERVICES = [
     category: 'hardware',
     categoryName: 'Аппаратная косметология',
     name: 'Venus Viva',
+    image: 'https://inskin.clinic/wp-content/uploads/2020/09/rf-омоложение-venus-viva-в-клинике-инскин-санкт-петербург-2.jpg',
     equipment: 'Venus Viva (Израиль)',
     tagline: 'Радиочастотный термолифтинг',
     description:
@@ -84,6 +88,7 @@ const SERVICES = [
     category: 'hardware',
     categoryName: 'Аппаратная косметология',
     name: 'DEKA Moveo — лазерная эпиляция',
+    image: 'https://inskin.clinic/wp-content/uploads/2020/11/лазерная-эпиляция-moveo-в-клинике-инскин-санкт-петербург-5.jpg',
     equipment: 'DEKA Moveo (Италия)',
     tagline: 'Безболезненное и стойкое удаление волос',
     description:
@@ -100,6 +105,7 @@ const SERVICES = [
     category: 'hardware',
     categoryName: 'Аппаратная косметология',
     name: 'Экзосомы',
+    image: 'https://inskin.clinic/wp-content/uploads/2025/02/экзосомы-клиника-инскин-санкт-петербург.jpg',
     equipment: 'Регенеративная биотехнология',
     tagline: 'Инновационная регенеративная терапия',
     description:
@@ -117,6 +123,7 @@ const SERVICES = [
     category: 'injection',
     categoryName: 'Инъекционная косметология',
     name: 'Ботулинотерапия',
+    image: 'https://inskin.clinic/wp-content/uploads/2024/07/ботокс-ксеомин-диспорт-инъекции-в-клинике-инскин-на-васильевском-острове-в-санкт-петербурге-4.png',
     equipment: 'Myotox, Dysport, Xeomin',
     tagline: 'Расслабление мимических мышц',
     description:
@@ -133,6 +140,7 @@ const SERVICES = [
     category: 'injection',
     categoryName: 'Инъекционная косметология',
     name: 'Контурная пластика филлерами',
+    image: 'https://inskin.clinic/wp-content/uploads/2020/08/radiesse-fillers-inskin.png',
     equipment: 'Гиалуроновая кислота',
     tagline: 'Восстановление объёмов и чёткости контуров',
     description:
@@ -149,6 +157,7 @@ const SERVICES = [
     category: 'injection',
     categoryName: 'Инъекционная косметология',
     name: 'Биомоделирование Profhilo',
+    image: 'https://inskin.clinic/wp-content/uploads/2020/08/profhilo-fillers.png',
     equipment: 'Profhilo (IBSA)',
     tagline: 'Биоремоделирование кожи',
     description:
@@ -165,6 +174,7 @@ const SERVICES = [
     category: 'injection',
     categoryName: 'Инъекционная косметология',
     name: 'Плазмотерапия (PRP)',
+    image: 'https://inskin.clinic/wp-content/uploads/2021/09/plasma2.jpg',
     equipment: 'Собственная плазма пациента',
     tagline: 'Аутологичная регенерация',
     description:
@@ -181,6 +191,7 @@ const SERVICES = [
     category: 'injection',
     categoryName: 'Инъекционная косметология',
     name: 'Мезотерапия и биоревитализация',
+    image: 'https://inskin.clinic/wp-content/uploads/2020/08/meso-therapy-inskin-clinic2.png',
     equipment: 'Коктейли и препараты',
     tagline: 'Глубокое увлажнение и питание',
     description:
@@ -198,6 +209,7 @@ const SERVICES = [
     category: 'threads',
     categoryName: 'Нитевая имплантология',
     name: 'Нити APTOS',
+    image: 'https://inskin.clinic/wp-content/uploads/2020/11/нити-аптос-нитевая-имплантология-в-клинике-инскин-санкт-петербург-2.png',
     equipment: 'APTOS (Россия)',
     tagline: 'Нитевой лифтинг лица и тела',
     description:
@@ -215,6 +227,7 @@ const SERVICES = [
     category: 'treatment',
     categoryName: 'Лечебные программы',
     name: 'Лечение акне',
+    image: 'https://inskin.clinic/wp-content/uploads/2020/12/лечение-акне-на-васильевском-острове-санкт-петербург-в-клинике-инскин.jpg',
     equipment: 'Комплексный подход',
     tagline: 'Комплексная терапия угревой болезни',
     description:
@@ -231,6 +244,7 @@ const SERVICES = [
     category: 'treatment',
     categoryName: 'Лечебные программы',
     name: 'Лечение розацеа',
+    image: 'https://inskin.clinic/wp-content/uploads/2020/12/лечение-розацеа-на-васильевском-острове-санкт-петербург-в-клинике-инскин.jpg',
     equipment: 'Nordlys Candela + уход',
     tagline: 'Контроль и ремиссия розацеа',
     description:
@@ -247,6 +261,7 @@ const SERVICES = [
     category: 'treatment',
     categoryName: 'Лечебные программы',
     name: 'Коррекция гиперпигментации',
+    image: 'https://inskin.clinic/wp-content/uploads/2020/12/лечение-гиперпигментации-на-васильевском-острове-санкт-петербург-в-клинике-инскин.jpg',
     equipment: 'Nordlys + SmartXide',
     tagline: 'Выравнивание тона и устранение пятен',
     description:
@@ -263,6 +278,7 @@ const SERVICES = [
     category: 'treatment',
     categoryName: 'Лечебные программы',
     name: 'Лечение выпадения волос',
+    image: 'https://inskin.clinic/wp-content/uploads/2020/12/лечение-волос-плазмотерапия-мезотерапия-на-васильевском-острове-санкт-петербург-в-клинике-инскин.jpg',
     equipment: 'PRP + мезотерапия',
     tagline: 'Восстановление роста и плотности волос',
     description:
@@ -333,16 +349,25 @@ export default function ServicesPage() {
                 key={service.id}
                 className={`bg-gradient-to-br ${service.gradient} border ${service.border} rounded-3xl overflow-hidden group hover:shadow-card-hover transition-all duration-300 flex flex-col`}
               >
-                <div className="p-7 flex-1">
-                  <div className="flex items-start justify-between mb-4">
-                    <span className={`tag border ${service.badgeColor} text-xs`}>
+                {/* Service image */}
+                <div className="relative h-52 overflow-hidden">
+                  <img
+                    src={service.image}
+                    alt={service.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+                  <div className="absolute top-4 left-4 right-4 flex items-start justify-between">
+                    <span className={`tag border ${service.badgeColor} text-xs backdrop-blur-sm bg-white/90`}>
                       {service.badge}
                     </span>
-                    <span className="text-xs text-text-muted bg-white/60 backdrop-blur-sm px-2.5 py-1 rounded-full border border-white/40">
+                    <span className="text-xs text-white bg-black/40 backdrop-blur-sm px-2.5 py-1 rounded-full">
                       {service.origin}
                     </span>
                   </div>
+                </div>
 
+                <div className="p-7 flex-1">
                   <p className="text-xs text-text-muted uppercase tracking-wider mb-1 font-medium">
                     {service.categoryName}
                   </p>
